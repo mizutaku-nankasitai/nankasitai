@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+header{
+  height: 65px;
+  width: 100%;
+  background-color:rgba(255,255,255,1.0);
+  position:sticky;
+  top: 0;
+}
+.container{
+  max-width: 1300px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.logo{
+  width: 170px;
+  height: 50px;
+  margin-top: 9px;
+}
+.header-left{
+  float: left;
+}
+.header-right{
+  float: right;
+  margin-right: -25px;
+}
+.header-right a{
+  line-height: 45px;
+  padding: 10px 25px;
+  color:black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+.header-right a:hover {
+    background-color: rgba(128,128,128, 0.3);
+    }
+.top-wrapper{
+  padding: 180px 0 100px 0;
+  background-image: url(file:///Users/mizunotakumi/Documents/なんかしたい/プログラミングHP画像.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.top-wrapper h3 {
+  opacity: 0.7;
+  font-size: 60px;
+  letter-spacing: 5px;
+  border-bottom: solid 1px #eee
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  font-size: 20px;
+}
