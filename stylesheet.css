@@ -1,6 +1,9 @@
+*{
+  box-sizing:border-box;
+}
 body {
   margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
+  font-family: 'Vollkorn', serif;
 }
 header{
   height: 65px;
@@ -8,18 +11,33 @@ header{
   background-color:rgba(255,255,255,1.0);
   position:sticky;
   top: 0;
+  z-index:10;
 }
 .container{
-  max-width: 1300px;
+  max-width: 1400px;
   width: 100%;
   padding: 0 15px;
-  margin: 0 auto;
+  margin: 0;
 }
 .logo{
-  width: 170px;
-  height: 50px;
-  margin-top: 9px;
+  width: 30px;
+  height: 25px;
+  margin-top: 22px;
+  margin-left: 15px;
 }
+.logo9{
+  width: 80px;
+  height: 25px;
+  margin-top: 22px;
+  margin-left: -5px;
+}
+.logo10{
+  width: 30px;
+  height: 20px;
+  margin-bottom: 3px;
+  margin-left: -8px;
+}
+
 .header-left{
   float: left;
 }
@@ -38,22 +56,226 @@ header{
 }
 .header-right a:hover {
     background-color: rgba(128,128,128, 0.3);
-    }
+}
+.entry{
+  background-color:#7fffff;
+  border-style: hidden
+}
+.butn{
+  font-size:20px;
+  font-weight:bold;
+  position:fixed;
+  right:0px;
+  bottom:50px;
+  padding: 20px 25px;
+  color: black;
+  display: inline-block;
+  opacity: 0.8;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius:200px;
+  text-align: center;
+  z-index:10;
+}
+.butn:hover{
+  opacity:1;
+}
+.fas {
+  margin:0 5px;
+}
 .top-wrapper{
-  padding: 180px 0 100px 0;
-  background-image: url(file:///Users/mizunotakumi/Documents/なんかしたい/プログラミングHP画像.png);
+  width:100%;
+  height:725px;
+  text-align: center;
+  display:block;
+  position: relative;
+  background-image: url(file:///Users/mizunotakumi/Desktop/html/プログラミング背景.jpg);
   background-size: cover;
-  color: white;
+}
+.top-wrapper h2 {
+  width:15%;
+  opacity: 1;
+  color:white;
+  position:absolute;
+  top:170px;
+  margin:0 500px;
+  writing-mode: vertical-rl;
+  animation: anime2 2.3s ease;
+}
+.logo3{
+  top:25%;
+  left:37%;
+  width: 26%;
+  vertical-align: top;
+  position: absolute;
+  animation: anime1 2.3s ease;      /* アニメーション指定 */
+    }
+    @keyframes anime1{
+        0% {
+            opacity:  0;                /* 透明度指定 */
+            top: 120px;                  /* 位置指定 */
+        }
+        100% {
+            opacity:  1;                /* 透明度指定 */
+            top: 180px;                     /* 位置指定 */
+        }
+      }
+.title-wrapper{
+  width:100%;
+  margin-bottom: 20px;
+  background-color:white;    #fffafa
+}
+.discription{
+  width:100%;
+}
+.logo4{
+  float: left;
+  width: 40%;
+  text-align: right;
+  margin:auto;
+  display: block;
+    }
+.title2{
+　float: right;
+  width:60%;
+  text-align: left;
+  margin:0 20px 0 auto;
+  padding:30px 0;
+  display: block;
+}
+.title2 h2{
+  font-size:40px;
+  color:#203744;
+}
+.title2 p{
+}
+.title3{
+  text-align:left;
+  display:block;
+}
+.step-wrapper{
+  background-color:#faf0e6;
+  padding-bottom: 80px;
   text-align: center;
 }
-.top-wrapper h3 {
-  opacity: 0.7;
-  font-size: 60px;
-  letter-spacing: 5px;
-  border-bottom: solid 1px #eee
+.heading {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+  text-align: center;
+}
+.heading h2{
+  font-size: 50px;
+  margin:20px 0;
+}
+.heading h3{
+  font-size: 15px;
+  margin: auto;
+}
+.point{
+  padding-top: 5px;
+  width:100%;
+  margin:0;
+  text-align: center;
+}
+.point img{
+  margin:0 5px;
+}
+.entrance-wrapper{
+  background-color:#202020;
+  width:100%;
+  height:100%;
+}
+.entrances{
+  margin:0 auto;
+  width:45%;
+  display: list-item;
+  list-style: none;
+  display: block;
+  clear: both;
+}
+.entrance p {
+  line-height:2.3;
+  font-weight: bold;
+  display: block;
+  color:white;
+}
+.map-wrapper{
+  text-align: center;
+  padding-bottom: 80px;
+}
+.entrance2 a:hover{
+  opacity:0.8;
+}
+.butn2{
+  font-size:30px;
+  font-weight:bold;
+  padding: 20px 50px;
+  color: black;
+  display: inline-block;
+  opacity: 0.8;
+  position: relative;
+  margin: 0 auto;
+  top:50px;
+  left:300px;
+  border-radius: 20px;
+  text-align: center;
+}
+.butn2:hover{
+  opacity:1;
+}
+footer{
+  width:100%;
+  background-color:#d3d3d3;
+}
+.logo5{
+  width: 170px;
+  height: 170px;
+  margin:45px 0 0 -20px;
+}
+.facebook {
+  background-color: #3b5998;
+}
+.twitter {
+  background-color: #55acee;
+}
+.instagram{
+  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+}
+.btn {
+  width: 25px;
+  height: 25px;
+  padding-top:0.35px;
+  padding-left: 0.15px;
+  color: white;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 8px;
+  text-align:center;
+  margin-right: 5px
 }
 
-.top-wrapper p {
-  opacity: 0.7;
-  font-size: 20px;
+.btn:hover {
+  opacity: 0.8;
+}
+.btn-wrapper{
+  padding:20px 0 30px 10px;
+}
+.foot{
+  width:100%;
+  margin:0 auto;
+  text-align: center;
+}
+.foot p{
+  font-size:12px;
+}
+.conect-wrapper{
+  padding-top:30px;
+}
+.clear{
+  clear: both;
+}
+.clearfix{
+  display: block;
+  clear: both;
 }
