@@ -195,8 +195,8 @@ footer{
   background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
 }
 .btn {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   color: white;
   display: inline-block;
   opacity: 1;
