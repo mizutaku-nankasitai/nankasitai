@@ -197,13 +197,12 @@ footer{
 .btn {
   width: 25px;
   height: 25px;
-  top: auto;
   color: white;
   display: inline-block;
   opacity: 1;
   border-radius: 8px;
   text-align:center;
-  margin-right: 5px
+  margin:0 2px;
 }
 .btn:hover {
   opacity: 0.8;
