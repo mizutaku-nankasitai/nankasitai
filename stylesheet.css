@@ -198,6 +198,7 @@ footer{
 .btn {
   width: 25px;
   height: 25px;
+  top:auto;
   color: white;
   display: inline-block;
   opacity: 1;
