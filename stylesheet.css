@@ -94,7 +94,6 @@ header{
   text-align: center;
   width:30%;
   top:150px;
-  height: auto;
   position: relative;
   animation: anime1 2.3s ease;      /* アニメーション指定 */
     }
@@ -198,7 +197,7 @@ footer{
 .btn {
   width: 25px;
   height: 25px;
-  top:auto;
+  top: auto;
   color: white;
   display: inline-block;
   opacity: 1;
@@ -206,7 +205,6 @@ footer{
   text-align:center;
   margin-right: 5px
 }
-
 .btn:hover {
   opacity: 0.8;
 }
