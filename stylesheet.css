@@ -87,7 +87,7 @@ header{
   height:725px;
   text-align: center;
   display:block;
-  background-image: url("背景です.jpg");
+  background-image: url(背景です.jpg);
   background-size: cover;
 }
 .logowhite{
